@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - initial
- * return: valus is 0
+ * Return: valus is 0
  */ 
 int main(void)
 {
