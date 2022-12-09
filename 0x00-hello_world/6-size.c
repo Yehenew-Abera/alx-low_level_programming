@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - initial
- * Return: valus is 0
- */ 
+ *main - initial
+ *Return: valus is 0
+ */
 int main(void)
 {
 	printf("Size of a char: %i byte(s)\n", sizeof(char));
