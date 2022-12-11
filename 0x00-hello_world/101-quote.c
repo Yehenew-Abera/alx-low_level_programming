@@ -3,7 +3,7 @@
 /**
  * main - C program that prints exactly and that piece of art is useful
  *
- * Return - 1
+ * Return: returns 1
  */
 int main(void)
 {
