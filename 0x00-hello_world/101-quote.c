@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include <stdio.h>
 /**
- * main -entry
+ * main - C program that prints exactly and that piece of art is useful
  *
  * Return - 1
  */
