@@ -3,7 +3,7 @@
 /**
  * main - prints alphabet in lowercase
  *
- * Rwturn: always return 0
+ * Return: always return 0
  */
 int main(void)
 {
