@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <limits.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry line
  *
@@ -7,7 +8,6 @@
  */
 
 int main(void)
-
 {
 	int n;
 
