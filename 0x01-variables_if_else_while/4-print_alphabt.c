@@ -6,15 +6,15 @@
  * Return: Always return 0
  */
 int main(void)
-{	
-	char c;
-	
-	for (c = 'a'; c <= 'z'; c++)
+{	char la;
+
+	for (la = 'a'; la <= 'z'; la++)
 	{
-		if (c != 'e' && c != 'q')
-			putchar('c');
+		if (la != 'e' && la != 'q')
+			putchar(la);
 	}
 	putchar('\n');
+
 	return (0);
 }
 
