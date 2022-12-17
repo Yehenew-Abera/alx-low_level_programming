@@ -1,20 +1,19 @@
-#include <main.h>
+#include <stdio.h>
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: Always returns 0
+ * Return: always return 0
  *
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	printf('_');
+	printf('p');
+	printf('u');
+	printf('t');
+	printf('c');
+	printf('h');
+	printf('a');
+	printf('r');
+	printf('\n');
 	return (0);
-}
