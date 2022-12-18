@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main_h"
 /**
  * main - entry point
  *
@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-	printf('_');
-	printf('p');
-	printf('u');
-	printf('t');
-	printf('c');
-	printf('h');
-	printf('a');
-	printf('r');
-	printf('\n');
+	_printf('_');
+	_printf('p');
+	_printf('u');
+	_printf('t');
+	_printf('c');
+	_printf('h');
+	_printf('a');
+	_printf('r');
+	_printf('\n');
 	return (0);
