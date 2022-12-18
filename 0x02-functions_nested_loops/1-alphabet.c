@@ -9,9 +9,9 @@
 char c;
 int alphabet(void);
 {
-	for (i = a; i < z; i++)
+	for (c = 'a'; c < 'z'; c++)
 	{
-		printf(i);
+		_putchar(c);
 	}
-	
+	_putchar('\n');
 return (0);	
