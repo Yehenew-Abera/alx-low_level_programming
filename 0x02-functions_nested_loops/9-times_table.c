@@ -14,7 +14,7 @@ void times_table(void)
 	while (i <= 9)
 	{
 		j = 0;
-		while (j <= 0)
+		while (j <= 9)
 		{
 			k = i * j;
 			if (j == 0)
@@ -23,7 +23,7 @@ void times_table(void)
 			}
 			else if (k < 10)
 			{
-				_puychar(' ');
+				_putchar(' ');
 				_putchar(k + '0');
 			}
 			else
