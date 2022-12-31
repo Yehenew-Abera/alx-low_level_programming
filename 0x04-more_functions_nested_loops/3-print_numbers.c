@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * main - prints 0-9
- * @c: numbers to be add
+ * print_numbers - prints 0-9
  * Return: 0 or 1
  */
 void print_numbers(void)
