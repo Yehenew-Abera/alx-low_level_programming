@@ -1,13 +1,15 @@
 #include "main.h"
 /**
- * _puts - prints a string followed by new line
- * @str: string to print
+ * _puts - prints a string
+ * @str: the string
+ * Return: the length of the string
  */
+
 void _puts(char *str)
-{
-	for (; *str != '\0'; str++)
+{	
+	while (*str != '\0')
 	{
-		_putchar(*str);
+		_putchar(*str++);
 	}
 	_putchar('\n');
 }
