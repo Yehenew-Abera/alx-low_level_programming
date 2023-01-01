@@ -1,23 +1,18 @@
 #include "main.h"
+
 /**
  * puts2 - prints every other character of a string
- * @str: The string to be treated
- * Return: void
+ * @str: char to check
+ * Return: 0 is success
  */
+
 void puts2(char *str)
 {
-	int i;
-	int j = 0;
+	int string;
 
-	while (str[j] != '\n')
-	{
+	for (string = 0; str[string] != '\0'; string++)
 
-		j++;
-	}
-
-	for (i = 0; i < j; i += 2)
-	{
-		_putchar(str[i]);
-	}
+	if (string % 2 == 0)
+		_putchar(str[string]);
 	_putchar('\n');
 }
