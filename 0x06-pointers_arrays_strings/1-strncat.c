@@ -4,6 +4,7 @@
  * _strncat - concatenates two strings.
  * @dest: first string
  * @src: second dtring
+ * @n: int
  * Return: value
  */
 char *_strncat(char *dest, char *src, int n)
