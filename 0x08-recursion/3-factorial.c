@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * factorial - prints factorial
- * @n: int
- * Return: int
+ * @n: integer fot factorial
+ * Return: integer
  */
 int factorial(int n)
 {
@@ -10,9 +10,9 @@ int factorial(int n)
 	{
 		return (-1);
 	}
-	else if (n == 0)
+	else if	(n == 1)
 	{
 		return (1);
 	}
-	return (n + factorial(n - 1));
+	return (n * factorial(n - 1));
 }
